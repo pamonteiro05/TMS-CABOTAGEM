@@ -21,7 +21,7 @@ Nenhum repositório foi criado nem publicado automaticamente. Antes de publicar 
 
 ## Substituir os dados
 
-Edite `data/real.js`, atribuindo somente o objeto abaixo a `window.DASHBOARD_DATA`. Não misture registros fictícios e reais. O arquivo é carregado diretamente para funcionar inclusive sem servidor. CSV/XLSX devem ser normalizados para este contrato antes da substituição; envie o relatório para adaptação.
+Edite `real.js`, atribuindo somente o objeto abaixo a `window.DASHBOARD_DATA`. Não misture registros fictícios e reais. O arquivo é carregado diretamente para funcionar inclusive sem servidor. CSV/XLSX devem ser normalizados para este contrato antes da substituição; envie o relatório para adaptação.
 
 ```js
 window.DASHBOARD_DATA = {
@@ -62,7 +62,7 @@ Os insights são regras descritivas calculadas sobre os registros, sem inferênc
 
 ## Estrutura
 
-`index.html`: interface · `styles.css`: visual responsivo e impressão · `app.js`: filtros e indicadores · `data/real.js`: base substituível · `.github/workflows/pages.yml`: deploy.
+`index.html`: interface · `styles.css`: visual responsivo e impressão · `app.js`: filtros e indicadores · `real.js`: base substituível · `.github/workflows/pages.yml`: deploy.
 
 ## Limitações
 
